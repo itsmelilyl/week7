@@ -1,0 +1,19 @@
+$font-size: 40px;
+$font-color: black;
+
+
+body {
+ width: 500px;
+ height: 500px;
+ background-color: $font-color;
+}
+
+header {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    h1 {
+        color:$font-color;
+        font-size: $font-size;
+    }
+}

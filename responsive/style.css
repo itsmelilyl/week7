@@ -1,0 +1,51 @@
+.header {
+	text-align: center;
+	background-color: rgb(187, 187, 187);
+	padding: 10px 0 10px 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.main {
+	text-align: center;
+	background-color: rgb(244, 233, 186);
+}
+
+.main_inner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
+
+.item1 {
+	background-color: rgb(233, 209, 111);
+	padding: 15px;
+	margin: 10px;
+}
+
+.item3 {
+	background-color: rgb(233, 209, 111);
+	padding: 15px;
+	margin: 10px;
+}
+
+.aside {
+	background-color: rgb(155, 243, 111);
+	text-align: center;
+}
+
+.footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: rgb(187, 187, 187);
+}
+
+.footer_item {
+	background-color: rgb(237, 237, 237);
+	text-align: center;
+	margin: 15px;
+	padding: 15px;
+}

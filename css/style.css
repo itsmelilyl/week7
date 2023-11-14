@@ -1,0 +1,221 @@
+
+.logo {
+    width: 114.912px;
+    height: 33.994px;
+    flex-shrink: 0;
+}
+
+.list {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--1st, #212832);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px;
+}
+
+.sign_up {
+    border-radius: 5px;
+    border: 1px solid var(--1st, #212832);
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.text1 {
+    grid-column-start: 1;
+    color: var(--1st, #181E4B);
+    font-family: 'Volkhov', sans-serif;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89px; /* 105.952% */
+    letter-spacing: -3.36px;
+
+}
+
+.text2 {
+    color: #5E6282;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+}
+
+.plane{
+    width: 137.294px;
+    height: 95.232px;
+    transform: rotate(-31.841deg);
+}
+
+.traveller{
+    grid-column-end: 3;
+    width: 765px;
+    height: 764px;
+}
+
+.button {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    background: var(--yellow, #F1A501);
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+
+}
+
+.playButton {
+    width: 52px;
+    height: 52px;
+
+}
+<!--Не понимаю как кнопку плей не переносить на другую строчку-->
+
+p {
+    color: var(--TEXT-CLR, #5E6282);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 100px;
+}
+<!--Почему опять не работает text-align:center-->
+
+
+.header {
+    justify-items: center;
+    color: var(--3rd, #14183E);
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.tours {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.item {
+    width: 314px;
+    height: 457px;
+}
+
+.cities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: var(--TEXT-CLR, #5E6282);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%; /* 22.41px */
+}
+
+.footer1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 150px;
+}
+
+.footer_item {
+	text-align: center;
+	margin: 15px;
+	padding: 15px;
+}
+
+.boldtext {
+    color: var(--black, #080809);
+    font-family: 'Poppins';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%; /* 26.145px */
+}
+
+
+
+
+
+
+@media screen and  (max-width: 767px) {
+	.footer{
+		display: none;
+	}
+    .logo {
+        width: 25%;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10px;
+
+    }
+
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+
+    .text1,.text2 {
+        font-size: 2rem;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .plane {
+        margin: 10px;
+        width: 10%;
+    }
+
+    .traveller {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+	.main_inner {
+		display: grid;
+		grid-template-columns: 1fr;
+		
+	}
+
+    .tours {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .cities{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

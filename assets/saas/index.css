@@ -1,0 +1,15 @@
+body {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+}
+
+header {
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+}
+header h1 {
+  color: black;
+  font-size: 40px;
+}/*# sourceMappingURL=index.css.map */
